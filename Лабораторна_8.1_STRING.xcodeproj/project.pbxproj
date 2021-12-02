@@ -12,9 +12,9 @@
 		18932F8D27576FED00BA8A4B /* Document.m in Sources */ = {isa = PBXBuildFile; fileRef = 18932F8C27576FED00BA8A4B /* Document.m */; };
 		18932F8F27576FF100BA8A4B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 18932F8E27576FF100BA8A4B /* Assets.xcassets */; };
 		18932F9227576FF100BA8A4B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 18932F9027576FF100BA8A4B /* Main.storyboard */; };
-		18932F9527576FF100BA8A4B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 18932F9427576FF100BA8A4B /* main.m */; };
 		18932FA027576FF100BA8A4B /* ____________8_1_CHARTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 18932F9F27576FF100BA8A4B /* ____________8_1_CHARTests.m */; };
 		18932FAB27576FF100BA8A4B /* ____________8_1_CHARUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 18932FAA27576FF100BA8A4B /* ____________8_1_CHARUITests.m */; };
+		18932FFF27578F6F00BA8A4B /* Labaab.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 18932FFD27578F6F00BA8A4B /* Labaab.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,7 +35,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		18932F8227576FED00BA8A4B /* Лабораторна_8.1_CHAR.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Лабораторна_8.1_CHAR.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		18932F8227576FED00BA8A4B /* Лабораторна_8.1_STRING.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Лабораторна_8.1_STRING.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		18932F8527576FED00BA8A4B /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		18932F8627576FED00BA8A4B /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		18932F8827576FED00BA8A4B /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
@@ -45,14 +45,15 @@
 		18932F8E27576FF100BA8A4B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		18932F9127576FF100BA8A4B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		18932F9327576FF100BA8A4B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		18932F9427576FF100BA8A4B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		18932F9627576FF100BA8A4B /* ____________8_1_CHAR.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "____________8_1_CHAR.entitlements"; sourceTree = "<group>"; };
-		18932F9B27576FF100BA8A4B /* Лабораторна_8.1_CHARTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Лабораторна_8.1_CHARTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		18932F9B27576FF100BA8A4B /* Лабораторна_8.1_STRINGTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Лабораторна_8.1_STRINGTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		18932F9F27576FF100BA8A4B /* ____________8_1_CHARTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "____________8_1_CHARTests.m"; sourceTree = "<group>"; };
 		18932FA127576FF100BA8A4B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		18932FA627576FF100BA8A4B /* Лабораторна_8.1_CHARUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Лабораторна_8.1_CHARUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		18932FA627576FF100BA8A4B /* Лабораторна_8.1_STRINGUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Лабораторна_8.1_STRINGUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		18932FAA27576FF100BA8A4B /* ____________8_1_CHARUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "____________8_1_CHARUITests.m"; sourceTree = "<group>"; };
 		18932FAC27576FF100BA8A4B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		18932FFD27578F6F00BA8A4B /* Labaab.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Labaab.cpp; sourceTree = "<group>"; };
+		18932FFE27578F6F00BA8A4B /* Labaab.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Labaab.hpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -83,6 +84,8 @@
 		18932F7927576FED00BA8A4B = {
 			isa = PBXGroup;
 			children = (
+				18932FFD27578F6F00BA8A4B /* Labaab.cpp */,
+				18932FFE27578F6F00BA8A4B /* Labaab.hpp */,
 				18932F8427576FED00BA8A4B /* Лабораторна_8.1_CHAR */,
 				18932F9E27576FF100BA8A4B /* Лабораторна_8.1_CHARTests */,
 				18932FA927576FF100BA8A4B /* Лабораторна_8.1_CHARUITests */,
@@ -93,9 +96,9 @@
 		18932F8327576FED00BA8A4B /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				18932F8227576FED00BA8A4B /* Лабораторна_8.1_CHAR.app */,
-				18932F9B27576FF100BA8A4B /* Лабораторна_8.1_CHARTests.xctest */,
-				18932FA627576FF100BA8A4B /* Лабораторна_8.1_CHARUITests.xctest */,
+				18932F8227576FED00BA8A4B /* Лабораторна_8.1_STRING.app */,
+				18932F9B27576FF100BA8A4B /* Лабораторна_8.1_STRINGTests.xctest */,
+				18932FA627576FF100BA8A4B /* Лабораторна_8.1_STRINGUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -112,7 +115,6 @@
 				18932F8E27576FF100BA8A4B /* Assets.xcassets */,
 				18932F9027576FF100BA8A4B /* Main.storyboard */,
 				18932F9327576FF100BA8A4B /* Info.plist */,
-				18932F9427576FF100BA8A4B /* main.m */,
 				18932F9627576FF100BA8A4B /* ____________8_1_CHAR.entitlements */,
 			);
 			path = "Лабораторна_8.1_CHAR";
@@ -139,9 +141,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		18932F8127576FED00BA8A4B /* Лабораторна_8.1_CHAR */ = {
+		18932F8127576FED00BA8A4B /* Лабораторна_8.1_STRING */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 18932FAF27576FF100BA8A4B /* Build configuration list for PBXNativeTarget "Лабораторна_8.1_CHAR" */;
+			buildConfigurationList = 18932FAF27576FF100BA8A4B /* Build configuration list for PBXNativeTarget "Лабораторна_8.1_STRING" */;
 			buildPhases = (
 				18932F7E27576FED00BA8A4B /* Sources */,
 				18932F7F27576FED00BA8A4B /* Frameworks */,
@@ -151,14 +153,14 @@
 			);
 			dependencies = (
 			);
-			name = "Лабораторна_8.1_CHAR";
+			name = "Лабораторна_8.1_STRING";
 			productName = "Лабораторна_8.1_CHAR";
-			productReference = 18932F8227576FED00BA8A4B /* Лабораторна_8.1_CHAR.app */;
+			productReference = 18932F8227576FED00BA8A4B /* Лабораторна_8.1_STRING.app */;
 			productType = "com.apple.product-type.application";
 		};
-		18932F9A27576FF100BA8A4B /* Лабораторна_8.1_CHARTests */ = {
+		18932F9A27576FF100BA8A4B /* Лабораторна_8.1_STRINGTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 18932FB227576FF100BA8A4B /* Build configuration list for PBXNativeTarget "Лабораторна_8.1_CHARTests" */;
+			buildConfigurationList = 18932FB227576FF100BA8A4B /* Build configuration list for PBXNativeTarget "Лабораторна_8.1_STRINGTests" */;
 			buildPhases = (
 				18932F9727576FF100BA8A4B /* Sources */,
 				18932F9827576FF100BA8A4B /* Frameworks */,
@@ -169,14 +171,14 @@
 			dependencies = (
 				18932F9D27576FF100BA8A4B /* PBXTargetDependency */,
 			);
-			name = "Лабораторна_8.1_CHARTests";
+			name = "Лабораторна_8.1_STRINGTests";
 			productName = "Лабораторна_8.1_CHARTests";
-			productReference = 18932F9B27576FF100BA8A4B /* Лабораторна_8.1_CHARTests.xctest */;
+			productReference = 18932F9B27576FF100BA8A4B /* Лабораторна_8.1_STRINGTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		18932FA527576FF100BA8A4B /* Лабораторна_8.1_CHARUITests */ = {
+		18932FA527576FF100BA8A4B /* Лабораторна_8.1_STRINGUITests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 18932FB527576FF100BA8A4B /* Build configuration list for PBXNativeTarget "Лабораторна_8.1_CHARUITests" */;
+			buildConfigurationList = 18932FB527576FF100BA8A4B /* Build configuration list for PBXNativeTarget "Лабораторна_8.1_STRINGUITests" */;
 			buildPhases = (
 				18932FA227576FF100BA8A4B /* Sources */,
 				18932FA327576FF100BA8A4B /* Frameworks */,
@@ -187,9 +189,9 @@
 			dependencies = (
 				18932FA827576FF100BA8A4B /* PBXTargetDependency */,
 			);
-			name = "Лабораторна_8.1_CHARUITests";
+			name = "Лабораторна_8.1_STRINGUITests";
 			productName = "Лабораторна_8.1_CHARUITests";
-			productReference = 18932FA627576FF100BA8A4B /* Лабораторна_8.1_CHARUITests.xctest */;
+			productReference = 18932FA627576FF100BA8A4B /* Лабораторна_8.1_STRINGUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
@@ -213,7 +215,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 18932F7D27576FED00BA8A4B /* Build configuration list for PBXProject "Лабораторна_8.1_CHAR" */;
+			buildConfigurationList = 18932F7D27576FED00BA8A4B /* Build configuration list for PBXProject "Лабораторна_8.1_STRING" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -226,9 +228,9 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				18932F8127576FED00BA8A4B /* Лабораторна_8.1_CHAR */,
-				18932F9A27576FF100BA8A4B /* Лабораторна_8.1_CHARTests */,
-				18932FA527576FF100BA8A4B /* Лабораторна_8.1_CHARUITests */,
+				18932F8127576FED00BA8A4B /* Лабораторна_8.1_STRING */,
+				18932F9A27576FF100BA8A4B /* Лабораторна_8.1_STRINGTests */,
+				18932FA527576FF100BA8A4B /* Лабораторна_8.1_STRINGUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -266,7 +268,7 @@
 			files = (
 				18932F8D27576FED00BA8A4B /* Document.m in Sources */,
 				18932F8A27576FED00BA8A4B /* ViewController.m in Sources */,
-				18932F9527576FF100BA8A4B /* main.m in Sources */,
+				18932FFF27578F6F00BA8A4B /* Labaab.cpp in Sources */,
 				18932F8727576FED00BA8A4B /* AppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -292,12 +294,12 @@
 /* Begin PBXTargetDependency section */
 		18932F9D27576FF100BA8A4B /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 18932F8127576FED00BA8A4B /* Лабораторна_8.1_CHAR */;
+			target = 18932F8127576FED00BA8A4B /* Лабораторна_8.1_STRING */;
 			targetProxy = 18932F9C27576FF100BA8A4B /* PBXContainerItemProxy */;
 		};
 		18932FA827576FF100BA8A4B /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 18932F8127576FED00BA8A4B /* Лабораторна_8.1_CHAR */;
+			target = 18932F8127576FED00BA8A4B /* Лабораторна_8.1_STRING */;
 			targetProxy = 18932FA727576FF100BA8A4B /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -476,7 +478,7 @@
 				MACOSX_DEPLOYMENT_TARGET = 11.3;
 				PRODUCT_BUNDLE_IDENTIFIER = "-.------------8-1-CHARTests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Лабораторна_8.1_CHAR.app/Contents/MacOS/Лабораторна_8.1_CHAR";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Лабораторна_8.1_STRING.app/Contents/MacOS/Лабораторна_8.1_STRING";
 			};
 			name = Debug;
 		};
@@ -495,7 +497,7 @@
 				MACOSX_DEPLOYMENT_TARGET = 11.3;
 				PRODUCT_BUNDLE_IDENTIFIER = "-.------------8-1-CHARTests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Лабораторна_8.1_CHAR.app/Contents/MacOS/Лабораторна_8.1_CHAR";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Лабораторна_8.1_STRING.app/Contents/MacOS/Лабораторна_8.1_STRING";
 			};
 			name = Release;
 		};
@@ -536,7 +538,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		18932F7D27576FED00BA8A4B /* Build configuration list for PBXProject "Лабораторна_8.1_CHAR" */ = {
+		18932F7D27576FED00BA8A4B /* Build configuration list for PBXProject "Лабораторна_8.1_STRING" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				18932FAD27576FF100BA8A4B /* Debug */,
@@ -545,7 +547,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		18932FAF27576FF100BA8A4B /* Build configuration list for PBXNativeTarget "Лабораторна_8.1_CHAR" */ = {
+		18932FAF27576FF100BA8A4B /* Build configuration list for PBXNativeTarget "Лабораторна_8.1_STRING" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				18932FB027576FF100BA8A4B /* Debug */,
@@ -554,7 +556,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		18932FB227576FF100BA8A4B /* Build configuration list for PBXNativeTarget "Лабораторна_8.1_CHARTests" */ = {
+		18932FB227576FF100BA8A4B /* Build configuration list for PBXNativeTarget "Лабораторна_8.1_STRINGTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				18932FB327576FF100BA8A4B /* Debug */,
@@ -563,7 +565,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		18932FB527576FF100BA8A4B /* Build configuration list for PBXNativeTarget "Лабораторна_8.1_CHARUITests" */ = {
+		18932FB527576FF100BA8A4B /* Build configuration list for PBXNativeTarget "Лабораторна_8.1_STRINGUITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				18932FB627576FF100BA8A4B /* Debug */,
